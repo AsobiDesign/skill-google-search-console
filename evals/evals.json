@@ -1,0 +1,19 @@
+{
+  "skill_name": "google-search-console",
+  "evals": [
+    {
+      "id": 1,
+      "name": "ctr-improvement-opportunity",
+      "prompt": "example-shopの検索クエリで、表示回数は多いのにクリックされてないものを教えて",
+      "expected_output": "表示回数が多くCTRが低い検索クエリを抽出し、タイトル/メタディスクリプション改善の余地があることを指摘するレポート。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "monthly-comparison-report",
+      "prompt": "先月と今月のexample-shopの検索パフォーマンスを比較したレポートを作って",
+      "expected_output": "クリック数・表示回数・平均CTR・平均掲載順位の前月比較を含むレポート（テキストまたはHTML）。",
+      "files": []
+    }
+  ]
+}
